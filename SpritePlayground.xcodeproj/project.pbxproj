@@ -24,7 +24,8 @@
 		44D5135E189EBFB400B69142 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 44D51339189EBFB400B69142 /* UIKit.framework */; };
 		44D51366189EBFB400B69142 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 44D51364189EBFB400B69142 /* InfoPlist.strings */; };
 		44D51368189EBFB400B69142 /* SpritePlaygroundTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 44D51367189EBFB400B69142 /* SpritePlaygroundTests.m */; };
-		44D51374189ECCD800B69142 /* SpriteKitSimpleGameResources in Resources */ = {isa = PBXBuildFile; fileRef = 44D51373189ECCD800B69142 /* SpriteKitSimpleGameResources */; };
+		44D5137A189ED08600B69142 /* sprites.atlas in Resources */ = {isa = PBXBuildFile; fileRef = 44D51379189ED08600B69142 /* sprites.atlas */; };
+		44D5137C189ED09000B69142 /* Sounds in Resources */ = {isa = PBXBuildFile; fileRef = 44D5137B189ED09000B69142 /* Sounds */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -61,7 +62,8 @@
 		44D51363189EBFB400B69142 /* SpritePlaygroundTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "SpritePlaygroundTests-Info.plist"; sourceTree = "<group>"; };
 		44D51365189EBFB400B69142 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
 		44D51367189EBFB400B69142 /* SpritePlaygroundTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = SpritePlaygroundTests.m; sourceTree = "<group>"; };
-		44D51373189ECCD800B69142 /* SpriteKitSimpleGameResources */ = {isa = PBXFileReference; lastKnownFileType = folder; path = SpriteKitSimpleGameResources; sourceTree = "<group>"; };
+		44D51379189ED08600B69142 /* sprites.atlas */ = {isa = PBXFileReference; lastKnownFileType = folder.skatlas; path = sprites.atlas; sourceTree = "<group>"; };
+		44D5137B189ED09000B69142 /* Sounds */ = {isa = PBXFileReference; lastKnownFileType = folder; path = Sounds; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -92,7 +94,8 @@
 		44D51329189EBFB400B69142 = {
 			isa = PBXGroup;
 			children = (
-				44D51373189ECCD800B69142 /* SpriteKitSimpleGameResources */,
+				44D5137B189ED09000B69142 /* Sounds */,
+				44D51379189ED08600B69142 /* sprites.atlas */,
 				44D5133D189EBFB400B69142 /* SpritePlayground */,
 				44D51361189EBFB400B69142 /* SpritePlaygroundTests */,
 				44D51334189EBFB400B69142 /* Frameworks */,
@@ -243,10 +246,11 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				44D5137C189ED09000B69142 /* Sounds in Resources */,
+				44D5137A189ED08600B69142 /* sprites.atlas in Resources */,
 				44D51342189EBFB400B69142 /* InfoPlist.strings in Resources */,
 				44D51355189EBFB400B69142 /* Images.xcassets in Resources */,
 				44D51353189EBFB400B69142 /* Spaceship.png in Resources */,
-				44D51374189ECCD800B69142 /* SpriteKitSimpleGameResources in Resources */,
 				44D5134B189EBFB400B69142 /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
